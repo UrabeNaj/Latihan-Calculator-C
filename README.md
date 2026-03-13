@@ -26,6 +26,7 @@ Command:
     
 Explanation:
     Creates a new Git repository in the current folder.
+    
 Example:
     cd Complex-Calculator-C
     git init
@@ -35,8 +36,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git clone <repository-url>
+    
 Explanation:
     Copies a repository from GitHub to your computer.
+    
 Example:
     git clone https://github.com/username/Complex-Calculator-C.git
 
@@ -45,8 +48,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git status
+    
 Explanation:
     Shows which files have been modified, staged, or untracked.
+    
 Example:
     git status
 
@@ -56,8 +61,10 @@ Example:
 Command:
     git add <filename>
     git add .
+    
 Explanation:
     Prepares files to be committed. "git add ." stages all files.
+    
 Example:
     git add calculator.c
     git add README.md
@@ -67,8 +74,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git commit -m "Your commit message"
+    
 Explanation:
     Saves staged changes into the repository history.
+    
 Example:
     git commit -m "Added factorial function to calculator"
 
@@ -77,8 +86,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git push origin main
+    
 Explanation:
     Uploads local commits to the GitHub repository.
+    
 Example:
     git push origin main
 
@@ -87,8 +98,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git pull origin main
+    
 Explanation:
     Downloads and merges changes from GitHub into your local repo.
+    
 Example:
     git pull origin main
 
@@ -97,8 +110,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git branch <branch-name>
+    
 Explanation:
     Creates a new branch for separate development.
+    
 Example:
     git branch feature-logarithm
 
@@ -107,8 +122,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git checkout <branch-name>
+    
 Explanation:
     Moves you to the branch you specify.
+    
 Example:
     git checkout feature-logarithm
 
@@ -118,8 +135,10 @@ Example:
 Command:
     git checkout main
     git merge <branch-name>
+    
 Explanation:
     Combines changes from another branch into main.
+    
 Example:
     git checkout main
     git merge feature-logarithm
@@ -129,8 +148,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git log
+    
 Explanation:
     Shows a list of past commits with details.
+    
 Example:
     git log
 
@@ -139,8 +160,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git checkout -- <filename>
+    
 Explanation:
     Restores a file to its last committed state.
+    
 Example:
     git checkout -- calculator.c
 
@@ -149,8 +172,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git reset <filename>
+    
 Explanation:
     Unstages a file that was added with git add.
+    
 Example:
     git reset README.md
 
@@ -159,8 +184,10 @@ Example:
 ------------------------------------------------------------
 Command:
     git branch -d <branch-name>
+    
 Explanation:
     Deletes a branch locally.
+    
 Example:
     git branch -d feature-logarithm
 
