@@ -15,7 +15,7 @@ This project is designed as a learning example for students to practice programm
 ---
 ## Common GitHub Commands for Students
 ===================================
-
+https://git-scm.com/install
 This guide explains the most useful GitHub commands with examples using the Complex-Calculator-C project.
 
 ------------------------------------------------------------
