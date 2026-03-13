@@ -19,11 +19,11 @@ This project is designed as a learning example for students to practice programm
 
 
 1. Initialize a new repository
-•	git init
-•	# Explanation: Creates a new Git repository in the current folder.
-•	# Example:
-•	cd Complex-Calculator-C
-•	git init
+- git init
+-	# Explanation: Creates a new Git repository in the current folder.
+-	# Example:
+-	cd Complex-Calculator-C
+-	git init
 
 2. Clone an existing repository
 •	git clone <repository-url>
